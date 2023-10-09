@@ -12,7 +12,7 @@
   height: auto;
   padding: 5px;
   border-radius: 19.02px;
-  padding: 5rem;
+  padding: 10px;
   justify-content: space-around;
 
   @include themed() {
@@ -34,7 +34,6 @@
 
     .avatar__container {
       width: inherit;
-      
     }
   }
   &__post-container {
