@@ -10,7 +10,17 @@
     "prepare": "husky install",
     "format": "prettier --write .",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "husky": {
+      "hooks": {
+        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      }
+    },
+    "commitlint": {
+      "extends": [
+        "@commitlint/config-conventional"
+      ]
+    }
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.1",

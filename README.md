@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://github.com/prgrms-fe-devcourse/FEDC4_Price-PCC_DONGYOUNG/assets/83554018/bd3f4a69-5f36-48e1-a039-27872086db9b" />
 </p>
-<h1 align="center">꿀매포청천!</h1>
+<h1 align="center">꿀매포청천</h1>
 
 <div align="center">
   <img src="https://img.shields.io/badge/Project_Name-꿀매포청천-yellow" />
