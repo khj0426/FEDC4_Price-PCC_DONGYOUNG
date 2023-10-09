@@ -9,6 +9,9 @@ const useGetComment = (postId: string, initComments?: Comment[]) => {
       const data = await getPostDetail(postId)
       return data
     },
+    refetchOnMount: false,
+    refetchOnWindowFocus: false,
+    refetchOnReconnect: false,
     initialData: [initComments],
   })
 }
